@@ -7,10 +7,10 @@ using UnityEngine.Purchasing;
 
 public class IAPKey
 {
-    public const string PACK1 = "add1";
-    public const string PACK2 = "add3";
-    public const string PACK3 = "add5";
-    public const string PACK4 = "add10";
+    public const string PACK1 = "tangle_puzzle_pack1";
+    public const string PACK2 = "tangle_puzzle_pack2";
+    public const string PACK3 = "tangle_puzzle_pack3";
+    public const string PACK4 = "tangle_puzzle_pack4";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
